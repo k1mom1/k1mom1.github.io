@@ -1,0 +1,23 @@
+#main {
+    width: 100%;
+    height: 1080px;
+}
+.mainText {
+    position: relative;
+    top: 450px;
+    color: white;
+    margin-left: 200px;
+}
+.mainText p:nth-child(1) {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.mainText p:nth-child(2) {
+    font-size: 3em;
+}
+.arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50%; /* 왼쪽에서 50% 위치 */
+    transform: translateX(-50%);
+}
